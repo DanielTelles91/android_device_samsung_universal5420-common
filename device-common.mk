@@ -126,8 +126,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.samsung
 
 # Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-exynos
+
 
 # Media
 PRODUCT_COPY_FILES += \
