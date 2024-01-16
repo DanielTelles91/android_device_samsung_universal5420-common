@@ -62,3 +62,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.direct.interface=p2p0
+
+# Otimização    
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.config.low_ram=true \
+   ro.config.hw_quickpoweron=true \
+   force_hw_ui=true \
+   persist.sys.use_16bpp_alpha=1 \
+   log.tag.launcher_force_rotate=VERBOSE \
+   lockscreen.rot_override=true \
+   ro.sys.fw.bg_apps_limit=5
