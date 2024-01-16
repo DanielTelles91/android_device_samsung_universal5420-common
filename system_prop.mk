@@ -72,4 +72,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
    log.tag.launcher_force_rotate=VERBOSE \
    lockscreen.rot_override=true \
    ro.sys.fw.bg_apps_limit=5 \
-   ro.egl.destroy_after_detach=true \
+   ro.egl.destroy_after_detach=true 
