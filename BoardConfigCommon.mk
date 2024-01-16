@@ -18,6 +18,13 @@ COMMON_PATH := device/samsung/universal5420-common
 
 BUILD_BROKEN_DUP_RULES := true
 
+BOARD_KERNEL_CMDLINE += initcall_debug ignore_loglevel
+
+TARGET_USES_MKE2FS := true
+
+# Use longer timeouts for slow CPU
+TARGET_NEEDS_LONG_TIMEOUTS := true
+
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
